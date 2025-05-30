@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Bootstrap JS + Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Custom JS -->
+    <script src="js/main.js" defer></script>
+
+</head>
+<body>
+   <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" class="logo img-fluid" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feature.html">Why Choose Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">
+               Benefits  <i class="bi bi-chevron-down"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">
+              FAQs <i class="bi bi-chevron-down"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="createbtn mb-3 mt-3">
+            <a href="./signin.html" class="active p-2 rounded">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>    
+
+  <!-- banner section -->
+<div class="full-bg d-flex justify-content-center align-items-center">
+  <div class="container text-center bannner-top">
+    <div class="row justify-content-center align-items-start">
+      <!-- Left Column -->
+      <div class="col-md-6 text-md-start text-center mb-4 mb-md-0">
+        <h1 class="mb-5 textcolor fw-semibold">TAILORED IVF MANAGEMENT SOFTWARE FOR CLINICS</h1>
+        <p class="mb-5">Your All-in-one software for Enhanced IVF Clinic Management and Patient Experience</p>
+
+<!-- Feature Rows -->
+<div class="row mb-3">
+    <div class="col-6 d-flex align-items-center gap-2">
+      <i class="bi bi-person-badge fs-1 text-primary"></i>
+      <span class="fs-5">In-Built CRM</span>
+    </div>
+    <div class="col-6 d-flex align-items-center gap-3">
+      <i class="bi bi-bar-chart-line fs-1 text-primary"></i>
+      <span class="fs-5">Patient Insight</span>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-6 d-flex align-items-center gap-3">
+      <i class="bi bi-sliders fs-1 text-primary"></i>
+      <span class="fs-5">Custom Fit</span>
+    </div>
+    <div class="col-6 d-flex align-items-center gap-3 ">
+      <i class="bi bi-plug fs-1 text-primary"></i>
+      <span class="fs-5">Easy Connect</span>
+    </div>
+  </div>
+  
+  <div class="row mb-3">
+    <div class="col-6 d-flex align-items-center gap-3">
+      <i class="bi bi-phone fs-1 text-primary"></i>
+      <span class="fs-5">Info on-the-go</span>
+    </div>
+    <div class="col-6 d-flex align-items-center gap-3">
+      <i class="bi bi-cloud-arrow-up fs-1 text-primary"></i>
+      <span class="fs-5">Data Transfer</span>
+    </div>
+  </div>
+      </div>
+      <div class="col-md-6">
+        <form class="row g-3 formcolor p-5 rounded shadow">
+            <h1 class="text-white mb-4 fw-semibold ">Schedule a Free Demo</h1>
+          <div class="col-md-6">
+            <input type="text" class="form-control mb-4 p-3" placeholder="Clinic Name*" aria-label="First name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control mb-4 p-3" placeholder="Company Email*" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <input type="mobile" class="form-control mb-4 p-3" placeholder="Mobile*" id="inputPassword4">
+          </div>
+          <div class="col-md-6">
+            <input type="password" class="form-control mb-4 p-3"  placeholder="Clinic Location*" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input p-2" type="checkbox" id="gridCheck">
+              <label class="form-check-label text-white mb-4" for="gridCheck">I Agree and accept the Terms & Condition</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary w-100 p-3">Schedule Demo</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Icon card section  -->
+ <section class="d-flex justify-content-center">
+  <div class="container my-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 p-4 shadow">
+                <div class="card-body">
+                  <!-- Icon -->
+                  <i class="bi bi-shield-lock fs-1 text-primary mb-3"></i>
+                  
+                  <!-- Title -->
+                  <h5 class="card-title fw-normal textcolor">Data Protection</h5>
+                  
+                  <!-- Paragraph -->
+                  <p class="card-text text-muted">
+                    Protect Data Leakage With Strict Data Protection
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 p-4 shadow">
+                <div class="card-body">
+                  <!-- Icon -->
+                  <i class="bi bi-check2-square fs-1 text-primary mb-3"></i>
+                  
+                  <!-- Title -->
+                  <h5 class="card-title fw-normal textcolor">Built In Task Manager</h5>
+                  
+                  <!-- Paragraph -->
+                  <p class="card-text text-muted">
+                    Track patient outcomes, clinic performance, and growth with real-time analytics tailored for IVF clinics.
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card text-center p-4 h-100 d-flex flex-column shadow">
+                <div class="card-body d-flex flex-column">
+                  <!-- Icon -->
+                  <i class="bi bi-joystick fs-1 text-primary mb-3"></i>
+                  
+                  <!-- Title -->
+                  <h5 class="card-title fw-normal textcolor">Easy Walkthrough</h5>
+                  
+                  <!-- Paragraph -->
+                  <p class="card-text text-muted">
+                    Access Patient Info Anytime, From any Screen
+                  </p>
+                </div>
+              </div>
+        </div>
+    </div>
+    
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 p-4 d-flex flex-column shadow">
+                <div class="card-body d-flex flex-column">
+                  <!-- Icon -->
+                  <i class="bi bi-map fs-1 text-primary mb-3"></i>
+                  
+                  <!-- Title -->
+                  <h5 class="card-title fw-normal textcolor">Map Patients Journey</h5>
+                  
+                  <!-- Paragraph -->
+                  <p class="card-text text-muted">
+                    Step Linked Progression Bar to Know Milestones
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 d-flex flex-column p-4 shadow">
+                <div class="card-body d-flex flex-column">
+                  <!-- Icon -->
+                  <i class="bi bi-grid-1x2-fill fs-1 text-primary mb-3"></i>
+                  
+                  <!-- Title -->
+                  <h5 class="card-title fw-normal textcolor">One Stop Solution</h5>
+                  
+                  <!-- Paragraph -->
+                  <p class="card-text text-muted">
+                    No Need For Multiple Software Just Use One 
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 d-flex flex-column p-4 shadow">
+                <div class="card-body d-flex flex-column">
+                  <!-- Icon -->
+                  <i class="bi bi-cpu fs-1 text-primary mb-3"></i>
+                  
+                  <!-- Title -->
+                  <h5 class="card-title fw-normal textcolor">Al Integration</h5>
+                  
+                  <!-- Paragraph -->
+                  <p class="card-text text-muted">
+                    TTS and Al Integrated to Reduce Humane Error 
+                  </p>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- why choose us -->
+ <section class="d-flex justify-content-center mb-5">
+    <div class="container bg-white p-4  rounded shadow">
+        <h1 class="mb-5 textcolor text-center fw-semibold">Why Choose Us?</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3 shadow border-0 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img src="./images/arseny-togulev-DE6rYp1nAho-unsplash.jpg" class="img-fluid WhyChooseUsimg rounded-5" alt="...">
+                      </div>
+                      <div class="col-md-8 d-flex align-items-center">
+                        <div class="card-body">
+                          <h4 class="card-title fw-normal textcolor">1. Seamless Patient Management</h4>
+                          <p class="card-text">Effortlessly manage patient records, appointments,
+                            communications and history in a centralized, secure platform tailored for IVF clinics, enhancing efficiency</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 shadow border-0 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img src="./images/atikah-akhtar-XJptUS8nbhs-unsplash.jpg" class="img-fluid WhyChooseUsimg rounded-5" alt="...">
+                      </div>
+                      <div class="col-md-8 d-flex align-items-center">
+                        <div class="card-body">
+                          <h4 class="card-title fw-normal textcolor">2. Detailed IVF Cycle Tracking</h4>
+                          <p class="card-text"> Track each stage of the IVF cycle, from egg retrieval to 
+                            embryo transfer, with real-time updates and data-driven insights for better outcomes. improving decision</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 shadow border-0 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img src="./images/benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg" class="img-fluid WhyChooseUsimg rounded-5" alt="...">
+                      </div>
+                      <div class="col-md-8 d-flex align-items-center">
+                        <div class="card-body">
+                          <h4 class="card-title fw-normal textcolor">3. Automated Billing & Finance Integration</h4>
+                          <p class="card-text">Streamline complex IVF billing processes with automated milestone-based, package 
+                            billing and insurance management in one easy-to-use system, reducing</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 shadow border-0 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img src="./images/kari-shea-1SAnrIxw5OY-unsplash.jpg" class="img-fluid WhyChooseUsimg rounded-5" alt="...">
+                      </div>
+                      <div class="col-md-8 d-flex align-items-center">
+                        <div class="card-body">
+                          <h4 class="card-title fw-normal textcolor"> 4. Lab Management</h4>
+                          <p class="card-text">Optimize lab operations by tracking embryo development, managing cryostorage 
+                            and maintaining compliance with laboratory standards, all while ensuring</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 shadow border-0 p-2">
+                    <div class="row g-0">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img src="./images/martha-dominguez-de-gouveia-nMyM7fxpokE-unsplash.jpg" class="img-fluid WhyChooseUsimg rounded-5" alt="...">
+                      </div>
+                      <div class="col-md-8 d-flex align-items-center">
+                        <div class="card-body ">
+                          <h4 class="card-title fw-normal textcolor">5. Reporting & Compliance</h4>
+                          <p class="card-text">Generate accurate, automated reports and ensure your clinic 
+                                    meets regulatory standards while tracking performance 
+                                    -_ metrics and patient outcomes </p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+
+<!-- Benefit You  will gain -->
+ <section class="d-flex justify-content-center">
+    <div class="container bg-white p-4 rounded shadow">
+        <h1 class="mb-5 textcolor text-center fw-semibold">Benefits You Will Gain</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="./images/undraw_designer_efwz.png" class="rounded img-thumbnail mb-3 equal-height" alt="...">
+                <h5 class="card-title text-center fw-normal">Optimize <span style="color: #004DC6;">Operations</span></h5>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="./images/undraw_creative-flow_t3kz.png" class="rounded img-thumbnail mb-3 equal-height" alt="...">
+                <h5 class="card-title text-center fw-normal">Leverage CRM For <span style="color: #004DC6;">Patient Growth</span></h5>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="./images/undraw_reading-a-book_4cap.png" class="rounded img-thumbnail mb-3 equal-height" alt="...">
+                <h5 class="card-title text-center fw-normal">Simplify <span style="color: #004DC6;">Financial Processes</span></h5>
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <img src="./images/undraw_work-friends_g4mn.png" class="rounded img-thumbnail mb-3 equal-height" alt="...">
+                <h5 class="card-title text-center fw-normal">Enhanced <span style="color: #004DC6;">Data security</span></h5>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="./images/undraw_mind-map_i9bv.png" class="rounded img-thumbnail mb-3 equal-height" alt="...">
+                <h5 class="card-title text-center fw-normal">Simplify <span style="color: #004DC6;">Financial Processes</span></h5>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="./images/undraw_designer_efwz.png" class="rounded img-thumbnail mb-3 equal-height" alt="...">
+                <h5 class="card-title text-center fw-normal">Forever <span style="color: #004DC6;">Medical Records</span></h5>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+
+ <!-- FAQ-->
+ <section class="d-flex justify-content-center mt-5">
+    <div class="container bg-white p-4 rounded shadow">
+        <h1 class="mb-5 textcolor text-center fw-semibold">FAQs</h1>
+        <div class="row">
+            <div class="col mb-4">
+                <img src="./images/kari-shea-1SAnrIxw5OY-unsplash.jpg" class="img-fluid mb-3 equal-width" alt="...">
+            </div>
+
+            <div class="accordion shadow" id="accordionExample">
+
+  <!-- Item 1 -->
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What features does LifeLinkr software include for clinics?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        LifeLinkr includes patient management, appointment scheduling, billing, EHR, and customizable dashboards to streamline clinic operations.
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Is LifeLinkr software suitable for individual doctors?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Yes, LifeLinkr is designed to be flexible and supports both individual practitioners and multi-provider clinics.
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How secure is patient data in LifeLinkr software?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        LifeLinkr follows strict data security protocols including encryption, secure access control, and compliance with healthcare data privacy standards.
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 4 -->
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Can I customize the LifeLinkr dashboard style?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Yes, LifeLinkr offers customizable dashboards allowing clinics to tailor the interface to match their workflow and preferences.
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 5 -->
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        What are the pricing plans for LifeLinkr?
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        LifeLinkr offers flexible pricing plans based on the size and needs of your clinic. Please contact our team for a custom quote.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+    </div>
+
+ </section>
+
+
+
+ <!-- Schedule A free  Demo -->
+ <section class="d-flex justify-content-center mt-5">
+    <div class="container">
+        <div class="col">
+            <form class="row g-3 p-5 form2color rounded shadow">
+                <h1 class="text-white mb-4 fw-semibold fw-semibold">Schedule a Free Demo</h1>
+              <div class="col-md-6">
+                <input type="text" class="form-control mb-4 p-3" placeholder="Clinic Name*" aria-label="First name">
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control mb-4 p-3" placeholder="Company Email*" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <input type="mobile" class="form-control mb-4 p-3" placeholder="Mobile*" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control mb-4 p-3"  placeholder="Clinic Location*" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control mb-4 p-3"  placeholder="Clinic Name*" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control mb-4 p-3"  placeholder="Country*" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control mb-4 p-3"  placeholder="City*" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control mb-4 p-3"  placeholder="No. of Users*" id="inputPassword4">
+              </div>
+              <div class="col">
+                <input type="password" class="form-control mb-4 p-3"  placeholder="Curently Using any software*" id="inputPassword4">
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Message </label>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input p-2" type="checkbox" id="gridCheck">
+                  <label class="form-check-label text-white mb-4" for="gridCheck">I Agree and accept the Terms & Condition</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-light p-3 mx-auto d-block">Schedule Demo <i class="fas fa-arrow-right ms-2"></i></button>
+              </div>
+            </form>
+          </div>
+    </div>
+
+ </section>
+
+
+ <!-- Managing Art made -->
+ <section class="d-flex justify-content-center mt-5">
+    <div class="container bg-white">
+        <h1 class="mb-5 textcolor text-center mt-5 fw-semibold">Managing ART Made Hassle Free</h1>
+        <div class="col">
+           <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <img src="./images/undraw_creative-flow_t3kz.png" class="img-fluid mb-3 Managingartimg" alt="...">
+            </div>
+            <div class="col-md-6 mb-4">
+                <ul>
+                    <li class="mb-4">Comprehensive and secure platform for managing IVF and reproductive health information.</li>
+                    <li class="mb-4"> Centralizes patient data, lab records, treatment cycles, and financial information.</li>
+                    <li class="mb-4"> Designed specifically for fertility clinics, making critical information easily accessible.</li>
+                  </ul>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-gradient p-3 mx-auto d-block">Schedule Demo <i class="fas fa-arrow-right ms-2"></i></button>
+                  </div>
+            </div>
+           </div>
+          </div>
+    </div>
+
+ </section>
+
+
+ <!-- Managing Art made -->
+ <section class="d-flex justify-content-center mt-5">
+    <div class="container bg-white">
+        <h1 class="mb-5 textcolor text-center mt-5 fw-semibold">Stay Focused, No Software Hopping</h1>
+        <div class="col">
+           <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <ul>
+                    <li class="mb-4">Eliminates the need for multiple standalone systems by integrating essential functions into one platform. </li>
+                    <li class="mb-4"> Includes HR, payroll, accounting, bank reconciliation, and inventory management tools.</li>
+                    <li class="mb-4">Provides comprehensive solutions for billing, patient management, pharmacy tracking, and bookkeeping. </li>
+                  </ul>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-gradient p-3 mx-auto d-block">Schedule Demo <i class="fas fa-arrow-right ms-2"></i></button>
+                  </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <img src="./images/undraw_creative-flow_t3kz.png" class="img-fluid mb-3 Managingartimg" alt="...">
+            </div>
+           </div>
+          </div>
+    </div>
+
+ </section>
+
+
+ 
+</body>
+</html>

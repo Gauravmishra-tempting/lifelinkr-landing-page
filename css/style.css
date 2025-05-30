@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #F3F3F3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+/*===============================
+             Header 
+=================================*/
+.fixed-top .navbar {
+    background: #EAEAEA;
+  }
+  
+
+  
+    /* ==============================
+              Logo code 
+    ================================== */
+  
+    a .logo {
+      max-width: 200px; 
+      height: auto;  
+      margin: 5px 50px; 
+  }
+  
+  
+  .navbar .nav-item a {
+      color: #968E89;
+      font-size: 20px;
+  }
+  
+  .navbar .nav-item .dropdown-item {
+      color: #4a4f53;
+  }
+  
+  .navbar .navbar-nav {
+      margin-left: 50%;
+  }
+  
+  .navbar-nav .nav-item{
+      margin-left: 15px;
+  }
+  
+  .top-fixed .navbar-nav .nav-link {
+      margin: 5px 5px;
+  }
+  
+  .container {
+      margin: 10px 10px;
+  }
+  
+  .nav-link:after,
+  .nav-link:before {
+    content: "";
+    width: 0%;
+    display: block;
+    height: 2px;
+    transition: all 0.3s ease;
+    margin-top: 2px;
+    transition: all 300ms ease-in;
+  }
+  
+  /* .nav-link:hover::after {
+    width: 100%;
+    height: 2px;
+    bottom: 25%;
+    background-color: #ff4a17;
+  }
+  .nav-link:hover::before {
+    width: 100%;
+    height: 2px;
+    top: 25%;
+    background-color: #ff4a17;
+  } */
+  
+  .createbtn .active{
+     background-color: #ffffff;
+     color: #013ACD;
+     text-decoration: none;
+     margin: 15px;
+     font-size: 20px;
+  }
+  
+  
+  /*===============================
+          Dropdown Hover
+  =================================*/
+  
+  .dropdown-menu {
+      display: none;
+      position: relative;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-menu a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-menu a:hover {background-color: #ff4a17;}
+    
+    .dropdown:hover .dropdown-menu {display: block;}
+    
+  
+  @media only screen and (max-width: 991px) {
+      .navbar .navbar-nav {
+          margin-left: auto;
+      }
+      .navbar-nav .nav-item{
+          margin-left: 0px;
+      }
+      .navbar .navbar-brand{
+          margin-left: 0px;
+      }
+      .createbtn .active{
+        margin: 0px;
+     }
+     a .logo {
+        max-width: 200px; 
+        height: auto;  
+        margin: 0px 0px; 
+    }
+  }
+
+  /* banner section  */
+
+  .bannner-top{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .textcolor{
+    color: #0139CD;
+  }
+
+  .full-bg {
+    background-color: #EAEAEA; 
+    padding: 100px; 
+  }
+
+  .formcolor{
+    background: #16325B;
+  }
+
+  .equal-height {
+    height: 300px; /* or whatever height you want */
+    object-fit: cover; /* keeps aspect ratio and crops if needed */
+    width: 100%; /* optional to keep image responsive */
+}
+
+.equal-width{
+    height: 300px;
+    object-fit:cover ;
+    width: 100%;
+}
+
+
+  
+
+  @media only screen and (max-width: 991px) {
+    .full-bg {
+        background-color: #EAEAEA; 
+        padding: 0px; 
+      }
+}
+
+.form2color {
+    background: #16325B;
+}
+
+
+.btn-gradient {
+  background: linear-gradient(90deg, #0090D9,#004DC6);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #003a9f, #0078b3); /* Slightly darker on hover */
+  color: white;
+}
+
+
+.Managingartimg{
+  height: 400px;
+    width: 100%;
+}
+
+.WhyChooseUsimg{
+    width: 70%;
+}
+
